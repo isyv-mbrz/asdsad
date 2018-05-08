@@ -1,0 +1,74 @@
+body {
+  margin: 0px;
+  background-color: gray; }
+
+#Navbar {
+  width: 100%;
+  background: #2ec8a6; }
+  #Navbar .container .row .custom-col {
+    margin-top: 7px; }
+    #Navbar .container .row .custom-col .col-md-10 .col-md-3 .custom-col2 {
+      margin-left: -15px;
+      margin-right: -15px; }
+      #Navbar .container .row .custom-col .col-md-10 .col-md-3 .custom-col2 i {
+        padding: 7px;
+        font-size: 12px;
+        color: white;
+        border: 1px solid #d5d6d4; }
+      #Navbar .container .row .custom-col .col-md-10 .col-md-3 .custom-col2 .map h5 {
+        color: white;
+        font-size: 14px; }
+      #Navbar .container .row .custom-col .col-md-10 .col-md-3 .custom-col2 .map .H-5 {
+        cursor: pointer;
+        transition: .5s ease; }
+        #Navbar .container .row .custom-col .col-md-10 .col-md-3 .custom-col2 .map .H-5:hover {
+          color: #dbac04; }
+  #Navbar .container .row .col-md-2 .custom-col2 .map h5 {
+    color: white;
+    font-size: 14px; }
+  #Navbar .container .row .col-md-2 .custom-col2 .map i {
+    color: white;
+    margin-right: 15px; }
+  #Navbar .container .row .col-md-2 .custom-col2 .map .H-5 {
+    cursor: pointer;
+    transition: .5s ease; }
+    #Navbar .container .row .col-md-2 .custom-col2 .map .H-5:hover {
+      color: #dbac04; }
+
+#Navbar2 {
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  left: 0px;
+  top: 42px;
+  z-index: 50;
+  background-color: #ffffff78; }
+  #Navbar2 .container .row .custom-roww .col-md-8 .custom-navBar .a {
+    display: inline-block;
+    padding: 5px;
+    border: 2px solid transparent;
+    transition: .3s ease;
+    border-radius: 20px;
+    margin-top: 25px; }
+    #Navbar2 .container .row .custom-roww .col-md-8 .custom-navBar .a:hover {
+      border: 2px solid #2ec8a6; }
+    #Navbar2 .container .row .custom-roww .col-md-8 .custom-navBar .a:last-child {
+      color: #2ec8a6;
+      font-size: 20px; }
+    #Navbar2 .container .row .custom-roww .col-md-8 .custom-navBar .a:last-child:hover {
+      border: 2px solid transparent;
+      cursor: pointer; }
+    #Navbar2 .container .row .custom-roww .col-md-8 .custom-navBar .a h1 {
+      font-size: 18px;
+      margin-top: 5px;
+      margin-bottom: 0px;
+      cursor: pointer; }
+
+#SLider {
+  width: 100%;
+  height: 100vh; }
+  #SLider .custom-container {
+    margin-left: -15px;
+    margin-right: -15px; }
+  #SLider .carousel-inner h1 {
+    z-index: 50; }

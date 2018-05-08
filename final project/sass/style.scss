@@ -1,0 +1,130 @@
+body{
+    margin: 0px;
+    background-color: gray;
+}
+#Navbar{
+    width: 100%;
+    background: #2ec8a6;
+    .container{
+        .row{
+            .custom-col{
+                margin-top: 7px;
+                .col-md-10{
+                    .col-md-3{
+                        .custom-col2{
+                            margin-left:-15px;
+                            margin-right: -15px;
+                            i{
+                                padding: 7px;
+                                font-size: 12px;
+                                color: white;
+                                border:1px solid #d5d6d4;
+                            }                         
+                            .map{
+                                h5{
+                                    color: white;
+                                    font-size: 14px;
+                                    
+                                }
+                                .H-5{
+                                    cursor: pointer;
+                                    transition: .5s ease;
+                                    &:hover{
+                                        color:#dbac04;
+                                    }
+                                }
+                               
+                            }
+                        }
+                    }
+                }
+            }
+            .col-md-2{
+                .custom-col2{
+                    .map{
+                        h5{
+                            color: white;
+                            font-size: 14px;
+                            
+                        }
+                        i{
+                            color:white;
+                            margin-right:15px;
+                        }
+                        .H-5{
+                            cursor: pointer;
+                            transition: .5s ease;
+                            &:hover{
+                                color:#dbac04;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#Navbar2{
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    left:0px;
+    top: 42px;
+    z-index: 50;
+    background-color: #ffffff78;
+    .container{
+        .row{ 
+                    .custom-roww{
+                              .col-md-8{
+                                  .custom-navBar{
+                                      .a{
+                                        display: inline-block;
+                                       padding: 5px;
+                                        border: 2px solid transparent;
+                                        transition: .3s ease;
+                                        border-radius: 20px;
+                                        margin-top: 25px;
+                                        &:hover{
+                                            border: 2px solid #2ec8a6;
+                                        }
+                                        &:last-child{
+                                            color:#2ec8a6;
+                                            font-size: 20px;
+                                        }
+                                        &:last-child:hover{
+                                            border: 2px solid transparent;
+                                            cursor: pointer;
+                                        }
+                                          h1{
+                                              font-size: 18px;
+                                              margin-top: 5px;
+                                              margin-bottom: 0px;
+                                              cursor: pointer;
+                                          }
+                                      }
+                                  }
+
+                              }        
+                    }
+        }
+    }
+    
+}
+#SLider{
+    width: 100%;
+    height: 100vh;
+    
+        .custom-container{
+            margin-left: -15px;
+            margin-right: -15px;
+        
+    }
+
+    .carousel-inner{
+        h1{
+            z-index: 50;
+        }
+    }
+}
+
